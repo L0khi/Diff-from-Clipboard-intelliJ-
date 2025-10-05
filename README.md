@@ -120,13 +120,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-## 🧾 Credits & Acknowledgments
-
-Built by **Lokhi (Kulwant Singh)**  
-Inspired by the VSCode “Diff from Clipboard” extension and other patch tools  
-
----
-
 ## 🧰 Troubleshooting
 
 | Problem | Solution |
