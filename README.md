@@ -1,0 +1,1 @@
+# Diff-from-clipboard-intelliJ-
