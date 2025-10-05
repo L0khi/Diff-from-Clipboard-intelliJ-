@@ -2,7 +2,7 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-A lightweight IntelliJ plugin that lets you apply `git diff` / patch content directly from your clipboard into your project, with smart alignment and error tolerance — built for messy AI-generated diffs, unordered hunks, and real-world use.
+An IntelliJ plugin that lets you apply `git diff` / patch content directly from your clipboard into your project, with smart alignment and error tolerance — built for messy AI-generated diffs, unordered hunks, and real-world use.
 
 ---
 
