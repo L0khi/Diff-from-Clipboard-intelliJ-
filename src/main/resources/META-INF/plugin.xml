@@ -1,0 +1,34 @@
+<idea-plugin>
+    <id>com.yourorg.diffclip</id>
+    <name>Apply Diff from Clipboard</name>
+    <version>0.3.0</version>
+    <vendor email="kulwant@example.com">Kulwant</vendor>
+
+    <description>
+        Applies clipboard diff patches directly to your open file.
+        Includes context-based hunk alignment, safe write, and visual feedback.
+    </description>
+
+    <change-notes>
+        v0.3.0 — Stable Client Build
+        • Context-based alignment (±50 lines)
+        • Visual highlight feedback using markup model
+        • Safe insert/delete/replace logic
+        • Error reporting moved outside write action
+    </change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action id="ApplyDiffAction"
+                class="com.yourorg.ApplyDiffAction"
+                text="Apply Diff from Clipboard"
+                description="Applies a clipboard diff patch to the current file.">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <notificationGroup id="DiffApplier" displayType="BALLOON" />
+    </extensions>
+</idea-plugin>
